@@ -1,0 +1,3 @@
+[submodule "foundation-icons"]
+	path = foundation-icons
+	url = git://github.com/zurb/foundation-icons.git
