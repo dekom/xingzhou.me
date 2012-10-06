@@ -12,8 +12,10 @@
 
     <title>Default</title>
 
+    <link rel="stylesheet" href="{{site.foundicons}}/foundation_icons_general/sass/general_foundicons.css" type="text/css" />
+    <link rel="stylesheet" href="{{site.foundicons}}/foundation_icons_social/sass/social_foundicons.css" type="text/css" />
     <link rel="stylesheet" href="/stylesheets/app.css" type="text/css">
-    <link rel="stylesheet" href="/stylesheets/foundation_icons_general/general_icons.css" type="text/css" />
+
     <script src="/javascripts/foundation/modernizr.foundation.js" type="text/javascript" charset="utf-8"></script>
 
     <!-- IE Fix for HTML5 Tags -->
@@ -27,13 +29,13 @@
           <div class="fixed contain-to-grid">
             <nav class="top-bar">
               <ul>
-                <li class="name has-button"><h1><a href="/">Xing Zhou</a></h1></li>
+                <li class="name has-button"><h1><a href="/">Xing Zhou <i class="general foundicon-smiley"></i></a></h1></li>
                 <li class="toggle-topbar"><a href="#"></a></li>
               </ul>
               <section>
                 <ul class="right">
-                  <li><a href="/posts.html">Posts</a></li>
-                  <li><a href="/projects.html">Projects</a></li>
+                  <li><a href="/posts.html"><i class="general foundicon-page"></i> Posts</a></li>
+                  <li><a href="/projects.html"><i class="general foundicon-heart"></i> Projects</a></li>
                 </ul>
               </section>
             </nav>
@@ -43,9 +45,47 @@
 
       {{ content }}
 
+      <div class="row">
+        <div class="twelve columns">
+          <iframe id="soundcloud" width="100%" height="250" scrolling="no" frameborder="no" src="http://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Fusers%2F8788863&amp;auto_play=false&amp;show_artwork=false&amp;color=900"></iframe>
+        </div>
+      </div>
+
     <footer class="row">
-      <div class="twelve columns">
-        <iframe id="soundcloud" width="100%" height="450" scrolling="no" frameborder="no" src="http://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Fusers%2F8788863&amp;auto_play=false&amp;show_artwork=false&amp;color=900"></iframe>
+      <div class="six columns" id="social">
+        <ul class="block-grid five-up">
+          {% include social.html %}
+        </ul>
+      </div>
+
+      <div class="six columns" id="attributions">
+        <div class="row">
+
+          <div id="code" class="four columns">
+            site codebase:
+            <ul>
+              <li><a href="https://github.com/dekom/xingzhou.me">Github</a></li>
+            </ul>
+          </div>
+
+          <div id="hosting" class="four columns">
+            hosted on:
+            <ul>
+              <li><a href="http://www.heroku.com/">Heroku</a></li>
+            </ul>
+          </div>
+
+          <div id="built" class="four columns">
+            built using:
+            <ul>
+              <li><a href="http://jekyllrb.com/">Jekyll</a></li>
+              <li><a href="http://compass-style.org/">Compass</a></li>
+              <li><a href="http://foundation.zurb.com/">ZURB Foundation</a></li>
+              <li><a href="http://www.zurb.com/playground/foundation-icons/">Foundation Icons</a></li>
+            </ul>
+          </div>
+          
+        </div>
       </div>
     </footer>
     <!-- Included JS Files (Uncompressed) -->

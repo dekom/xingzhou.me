@@ -47,7 +47,7 @@
 // @import "foundation/components/modules/offcanvas";
 
 body {
-  padding: {top: 75px; }
+  padding: {top: 2.5em; }
 }
 
 .top-bar ul {
@@ -58,4 +58,50 @@ body {
   li.name {
     background: $topBarBgColor;
   }
+}
+
+[class*="foundicon-"] {
+  vertical-align: middle;
+}
+
+footer {
+  padding: { top: 1em; }
+
+  .has-tip {
+    color: inherit;
+    border: none;
+
+    &:hover {
+      color: $mainColor;
+      cursor: auto;
+      border: none;
+    }
+  }
+}
+
+#social {
+  ul {
+    list-style: none;
+  }
+
+  li {
+    font-size: 1.5em;
+  }
+}
+
+#attributions {
+  ul {
+    list-style: none;
+  }
+
+  li:before {
+    content: "\2713  ";
+  }
+}
+[class*="general foundicon-"]:before {
+  font-family: "GeneralFoundicons";
+}
+
+[class*="social foundicon-"]:before {
+  font-family: "SocialFoundicons";
 }
