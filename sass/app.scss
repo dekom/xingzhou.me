@@ -47,5 +47,15 @@
 // @import "foundation/components/modules/offcanvas";
 
 body {
-  padding: {top: 45px; }
+  padding: {top: 75px; }
+}
+
+.top-bar ul {
+  li.toggle-topbar:hover {
+    background: $topBarBgColor;
+  }
+
+  li.name {
+    background: $topBarBgColor;
+  }
 }

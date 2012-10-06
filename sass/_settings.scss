@@ -1,5 +1,9 @@
 @import "foundation/common/ratios";
 
+// Variables
+
+$dark_red: #900;
+
 // Settings file containing Foundation defaults
 
 // Grid Settings
@@ -92,7 +96,7 @@
 
 // Top Bar Settings
 
-// $topBarBgColor: #222;
+$topBarBgColor: $dark_red;
 // $topBarHeight: 45px;
 // $topBarBtmMargin: 30px;
 // $topBarTitleWeight: bold;

@@ -2597,7 +2597,7 @@ ul.flyout li.active a, .nav-bar li ul li.active a {
 /* line 19, ../../../.rvm/gems/ruby-1.9.3-p194@xingzhou.me/gems/zurb-foundation-3.1.1/scss/foundation/components/modules/_topbar.scss */
 .contain-to-grid {
   width: 100%;
-  background: #222222;
+  background: #990000;
 }
 
 /* Wrapped around .top-bar to make it fixed at the top */
@@ -2613,7 +2613,7 @@ ul.flyout li.active a, .nav-bar li ul li.active a {
 /* <nav> */
 /* line 25, ../../../.rvm/gems/ruby-1.9.3-p194@xingzhou.me/gems/zurb-foundation-3.1.1/scss/foundation/components/modules/_topbar.scss */
 .top-bar {
-  background: #222222;
+  background: #990000;
   height: 45px;
   line-height: 45px;
   margin: 0 0 30px;
@@ -2675,7 +2675,7 @@ ul.flyout li.active a, .nav-bar li ul li.active a {
 }
 /* line 46, ../../../.rvm/gems/ruby-1.9.3-p194@xingzhou.me/gems/zurb-foundation-3.1.1/scss/foundation/components/modules/_topbar.scss */
 .top-bar ul > li:hover, .top-bar ul > li.active {
-  background: black;
+  background: #330000;
 }
 /* line 47, ../../../.rvm/gems/ruby-1.9.3-p194@xingzhou.me/gems/zurb-foundation-3.1.1/scss/foundation/components/modules/_topbar.scss */
 .top-bar ul > li:hover a, .top-bar ul > li.active a {
@@ -2683,7 +2683,7 @@ ul.flyout li.active a, .nav-bar li ul li.active a {
 }
 /* line 51, ../../../.rvm/gems/ruby-1.9.3-p194@xingzhou.me/gems/zurb-foundation-3.1.1/scss/foundation/components/modules/_topbar.scss */
 .top-bar ul > li.divider {
-  background: black;
+  background: #330000;
   -webkit-box-shadow: 1px 0 0 rgba(255, 255, 255, 0.1);
   -moz-box-shadow: 1px 0 0 rgba(255, 255, 255, 0.1);
   box-shadow: 1px 0 0 rgba(255, 255, 255, 0.1);
@@ -2697,7 +2697,7 @@ ul.flyout li.active a, .nav-bar li ul li.active a {
 }
 /* line 56, ../../../.rvm/gems/ruby-1.9.3-p194@xingzhou.me/gems/zurb-foundation-3.1.1/scss/foundation/components/modules/_topbar.scss */
 .top-bar ul > li.has-button:hover {
-  background: #222222;
+  background: #990000;
 }
 /* line 57, ../../../.rvm/gems/ruby-1.9.3-p194@xingzhou.me/gems/zurb-foundation-3.1.1/scss/foundation/components/modules/_topbar.scss */
 .top-bar ul > li.has-button:hover a {
@@ -2748,7 +2748,7 @@ ul.flyout li.active a, .nav-bar li ul li.active a {
 }
 /* line 69, ../../../.rvm/gems/ruby-1.9.3-p194@xingzhou.me/gems/zurb-foundation-3.1.1/scss/foundation/components/modules/_topbar.scss */
 .top-bar ul > li.search:hover {
-  background: #222222;
+  background: #990000;
 }
 /* line 73, ../../../.rvm/gems/ruby-1.9.3-p194@xingzhou.me/gems/zurb-foundation-3.1.1/scss/foundation/components/modules/_topbar.scss */
 .top-bar ul > li.toggle-topbar {
@@ -2784,7 +2784,7 @@ ul.flyout li.active a, .nav-bar li ul li.active a {
 }
 /* line 81, ../../../.rvm/gems/ruby-1.9.3-p194@xingzhou.me/gems/zurb-foundation-3.1.1/scss/foundation/components/modules/_topbar.scss */
 .top-bar ul > li.has-dropdown .dropdown {
-  background: #222222;
+  background: #990000;
   left: 0;
   margin: 0;
   padding: 9px 0 0 0;
@@ -2794,7 +2794,7 @@ ul.flyout li.active a, .nav-bar li ul li.active a {
 }
 /* line 82, ../../../.rvm/gems/ruby-1.9.3-p194@xingzhou.me/gems/zurb-foundation-3.1.1/scss/foundation/components/modules/_topbar.scss */
 .top-bar ul > li.has-dropdown .dropdown li {
-  background: #222222;
+  background: #990000;
   line-height: 1;
   min-width: 100%;
   padding-bottom: 5px;
@@ -2813,11 +2813,11 @@ ul.flyout li.active a, .nav-bar li ul li.active a {
 }
 /* line 85, ../../../.rvm/gems/ruby-1.9.3-p194@xingzhou.me/gems/zurb-foundation-3.1.1/scss/foundation/components/modules/_topbar.scss */
 .top-bar ul > li.has-dropdown .dropdown li a:hover {
-  background: #3c3c3c;
+  background: #cc0000;
 }
 /* line 87, ../../../.rvm/gems/ruby-1.9.3-p194@xingzhou.me/gems/zurb-foundation-3.1.1/scss/foundation/components/modules/_topbar.scss */
 .top-bar ul > li.has-dropdown .dropdown li label {
-  color: #6f6f6f;
+  color: #ff3333;
   font-size: 10px;
   font-weight: bold;
   margin: 0;
@@ -2826,7 +2826,7 @@ ul.flyout li.active a, .nav-bar li ul li.active a {
 }
 /* line 88, ../../../.rvm/gems/ruby-1.9.3-p194@xingzhou.me/gems/zurb-foundation-3.1.1/scss/foundation/components/modules/_topbar.scss */
 .top-bar ul > li.has-dropdown .dropdown li.divider {
-  border-top: solid 1px black;
+  border-top: solid 1px #330000;
   -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1) inset;
   -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1) inset;
   box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1) inset;
@@ -2931,7 +2931,7 @@ ul.flyout li.active a, .nav-bar li ul li.active a {
 }
 /* line 132, ../../../.rvm/gems/ruby-1.9.3-p194@xingzhou.me/gems/zurb-foundation-3.1.1/scss/foundation/components/modules/_topbar.scss */
 .lt-ie9 .top-bar ul li a.active {
-  background: #151515;
+  background: maroon;
   color: #d9d9d9;
 }
 
@@ -2992,11 +2992,11 @@ ul.flyout li.active a, .nav-bar li ul li.active a {
   }
   /* line 153, ../../../.rvm/gems/ruby-1.9.3-p194@xingzhou.me/gems/zurb-foundation-3.1.1/scss/foundation/components/modules/_topbar.scss */
   .top-bar ul li.active, .top-bar ul li:hover {
-    background: #151515;
+    background: maroon;
   }
   /* line 156, ../../../.rvm/gems/ruby-1.9.3-p194@xingzhou.me/gems/zurb-foundation-3.1.1/scss/foundation/components/modules/_topbar.scss */
   .top-bar ul li.name {
-    background: black;
+    background: #330000;
   }
   /* line 157, ../../../.rvm/gems/ruby-1.9.3-p194@xingzhou.me/gems/zurb-foundation-3.1.1/scss/foundation/components/modules/_topbar.scss */
   .top-bar ul li.name h1 {
@@ -3032,7 +3032,7 @@ ul.flyout li.active a, .nav-bar li ul li.active a {
   }
   /* line 166, ../../../.rvm/gems/ruby-1.9.3-p194@xingzhou.me/gems/zurb-foundation-3.1.1/scss/foundation/components/modules/_topbar.scss */
   .top-bar ul li.toggle-topbar:hover {
-    background: black;
+    background: #330000;
   }
   /* line 168, ../../../.rvm/gems/ruby-1.9.3-p194@xingzhou.me/gems/zurb-foundation-3.1.1/scss/foundation/components/modules/_topbar.scss */
   .top-bar ul li.toggle-topbar a {
@@ -3041,7 +3041,7 @@ ul.flyout li.active a, .nav-bar li ul li.active a {
   /* line 171, ../../../.rvm/gems/ruby-1.9.3-p194@xingzhou.me/gems/zurb-foundation-3.1.1/scss/foundation/components/modules/_topbar.scss */
   .top-bar ul li.divider {
     border-bottom: solid 1px rgba(255, 255, 255, 0.2);
-    border-top: solid 1px black;
+    border-top: solid 1px #4d0000;
     clear: both;
     height: 1px !important;
     margin: 8px 0 !important;
@@ -4971,5 +4971,14 @@ div.progress.round .meter {
 
 /* line 49, ../sass/app.scss */
 body {
-  padding-top: 45px;
+  padding-top: 75px;
+}
+
+/* line 54, ../sass/app.scss */
+.top-bar ul li.toggle-topbar:hover {
+  background: #990000;
+}
+/* line 58, ../sass/app.scss */
+.top-bar ul li.name {
+  background: #990000;
 }
