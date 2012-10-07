@@ -4992,38 +4992,33 @@ body {
 footer .has-tip {
   color: inherit;
   border: none;
+  cursor: default;
 }
-/* line 72, ../sass/app.scss */
+/* line 73, ../sass/app.scss */
 footer .has-tip:hover {
   color: #990000;
-  cursor: auto;
+  cursor: default;
   border: none;
 }
 
-/* line 81, ../sass/app.scss */
+/* line 82, ../sass/app.scss */
 #social ul {
   list-style: none;
 }
-/* line 85, ../sass/app.scss */
+/* line 86, ../sass/app.scss */
 #social li {
   font-size: 1.5em;
 }
 
-/* line 91, ../sass/app.scss */
+/* line 92, ../sass/app.scss */
 #attributions ul {
   list-style: none;
 }
-/* line 95, ../sass/app.scss */
-#attributions li:before {
-  content: "\2713  ";
+/* line 94, ../sass/app.scss */
+#attributions ul ul {
+  margin-left: 0px;
 }
-
-/* line 99, ../sass/app.scss */
-[class*="general foundicon-"]:before {
-  font-family: "GeneralFoundicons";
-}
-
-/* line 103, ../sass/app.scss */
-[class*="social foundicon-"]:before {
-  font-family: "SocialFoundicons";
+/* line 96, ../sass/app.scss */
+#attributions ul ul li:before {
+  content: "\2713";
 }

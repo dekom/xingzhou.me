@@ -68,10 +68,11 @@ footer {
   .has-tip {
     color: inherit;
     border: none;
+    cursor: default;
 
     &:hover {
       color: $mainColor;
-      cursor: auto;
+      cursor: default;
       border: none;
     }
   }
@@ -90,16 +91,11 @@ footer {
 #attributions {
   ul {
     list-style: none;
+    ul {
+      margin: { left: 0px; }
+      li:before {
+        content: "\2713";
+      }
+    }
   }
-
-  li:before {
-    content: "\2713  ";
-  }
-}
-[class*="general foundicon-"]:before {
-  font-family: "GeneralFoundicons";
-}
-
-[class*="social foundicon-"]:before {
-  font-family: "SocialFoundicons";
 }

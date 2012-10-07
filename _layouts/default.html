@@ -12,10 +12,11 @@
 
     <title>{{ page.title }}</title>
 
-    <link rel="stylesheet" href="{{site.foundicons}}/foundation_icons_general/sass/general_foundicons.css" type="text/css" />
-    <link rel="stylesheet" href="{{site.foundicons}}/foundation_icons_social/sass/social_foundicons.css" type="text/css" />
+    <link rel="stylesheet" href="/stylesheets/foundicons/general_foundicons.css" type="text/css" />
+    <link rel="stylesheet" href="/stylesheets/foundicons/social_foundicons.css" type="text/css" />
     <link rel="stylesheet" href="/stylesheets/app.css" type="text/css">
 
+    <script src="http://code.jquery.com/jquery.min.js" type="text/javascript" charset="utf-8"></script>
     <script src="/javascripts/foundation/modernizr.foundation.js" type="text/javascript" charset="utf-8"></script>
 
     <!-- IE Fix for HTML5 Tags -->
@@ -53,23 +54,23 @@
       </div>
 
       <div class="six columns" id="attributions">
-        <div class="row">
 
-          <div id="code" class="four columns">
-            site codebase:
+        <ul class="block-grid three-up">
+          <li id="code">
+            site code:
             <ul>
               <li><a href="https://github.com/dekom/xingzhou.me">Github</a></li>
             </ul>
-          </div>
+          </li>
 
-          <div id="hosting" class="four columns">
+          <li id="hosting">
             hosted on:
             <ul>
               <li><a href="http://www.heroku.com/">Heroku</a></li>
             </ul>
-          </div>
+          </li>
 
-          <div id="built" class="four columns">
+          <li id="built">
             built using:
             <ul>
               <li><a href="http://jekyllrb.com/">Jekyll</a></li>
@@ -77,38 +78,13 @@
               <li><a href="http://foundation.zurb.com/">ZURB Foundation</a></li>
               <li><a href="http://www.zurb.com/playground/foundation-icons/">Foundation Icons</a></li>
             </ul>
-          </div>
-          
-        </div>
+          </li>
+        </ul>
+
       </div>
     </footer>
-    <!-- Included JS Files (Uncompressed) -->
-    <script src="/javascripts/foundation/jquery.js" type="text/javascript" charset="utf-8"></script>
-    
-    <script src="/javascripts/foundation/jquery.foundation.forms.js" type="text/javascript" charset="utf-8"></script>
-    
-    <script src="/javascripts/foundation/jquery.placeholder.js" type="text/javascript" charset="utf-8"></script>
-    
-    <script src="/javascripts/foundation/jquery.foundation.mediaQueryToggle.js" type="text/javascript" charset="utf-8"></script>
-    
-    <script src="/javascripts/foundation/jquery.foundation.alerts.js" type="text/javascript" charset="utf-8"></script>
-    
-    <script src="/javascripts/foundation/jquery.foundation.reveal.js" type="text/javascript" charset="utf-8"></script>
-    
-    <script src="/javascripts/foundation/jquery.foundation.tooltips.js" type="text/javascript" charset="utf-8"></script>
-    
-    <script src="/javascripts/foundation/jquery.foundation.topbar.js" type="text/javascript" charset="utf-8"></script>
-    
-    <script src="/javascripts/foundation/jquery.foundation.tabs.js" type="text/javascript" charset="utf-8"></script>
-    
-    <script src="/javascripts/foundation/jquery.foundation.navigation.js" type="text/javascript" charset="utf-8"></script>
-    
-    <script src="/javascripts/foundation/jquery.foundation.accordion.js" type="text/javascript" charset="utf-8"></script>
-    
-    <script src="/javascripts/foundation/jquery.foundation.orbit.js" type="text/javascript" charset="utf-8"></script>
-    
-    <script src="/javascripts/foundation/jquery.foundation.buttons.js" type="text/javascript" charset="utf-8"></script>
 
+    <script src="/javascripts/foundation/foundation.min.js" type="text/javascript" charset="utf-8"></script>
     <script src="/javascripts/foundation/app.js" type="text/javascript" charset="utf-8"></script>
   </body>
 </html>
