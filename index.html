@@ -2,3 +2,22 @@
 layout: default
 title: Xing Zhou
 ---
+
+<section class="row">
+  <article class="nine columns" id="recent_post">
+    {% for post in site.posts limit:1 %}
+      <h3>{{post.title}} <small>{{post.date || date_to_long_string }}</small></h3>
+      <section>
+        {{ post.content }}
+      </section>
+    {% endfor %}
+  </article>
+
+  <div class="three columns" id="bio">
+    {% capture bio %}
+      {% include bio.markdown %}
+    {% endcapture %}
+
+    {{ bio | unindent | markdownify }}
+  </div>
+</section>

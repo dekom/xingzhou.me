@@ -1,6 +1,15 @@
 ---
 layout: post
-title: It Lives!
+title: From Sinatra to Jekyll
 ---
 
-# It Lives! #
+It seems that I could never settle down on proper framework for my personal 
+blogging website.  The goal for the ideal framework is slim codebase, fast
+content serving, and deployable to Heroku. I've tried pre-built blogging
+engines such as [enki][]
+
+```
+testing code
+```
+
+[enki]: http://enkiblog.com/
