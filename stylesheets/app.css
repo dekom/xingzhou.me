@@ -4988,46 +4988,42 @@ body {
   vertical-align: middle;
 }
 
-/* line 67, ../sass/app.scss */
-footer {
-  padding-top: 1em;
-}
-/* line 70, ../sass/app.scss */
+/* line 68, ../sass/app.scss */
 footer .has-tip {
   color: inherit;
   border: none;
 }
-/* line 74, ../sass/app.scss */
+/* line 72, ../sass/app.scss */
 footer .has-tip:hover {
   color: #990000;
   cursor: auto;
   border: none;
 }
 
-/* line 83, ../sass/app.scss */
+/* line 81, ../sass/app.scss */
 #social ul {
   list-style: none;
 }
-/* line 87, ../sass/app.scss */
+/* line 85, ../sass/app.scss */
 #social li {
   font-size: 1.5em;
 }
 
-/* line 93, ../sass/app.scss */
+/* line 91, ../sass/app.scss */
 #attributions ul {
   list-style: none;
 }
-/* line 97, ../sass/app.scss */
+/* line 95, ../sass/app.scss */
 #attributions li:before {
   content: "\2713  ";
 }
 
-/* line 101, ../sass/app.scss */
+/* line 99, ../sass/app.scss */
 [class*="general foundicon-"]:before {
   font-family: "GeneralFoundicons";
 }
 
-/* line 105, ../sass/app.scss */
+/* line 103, ../sass/app.scss */
 [class*="social foundicon-"]:before {
   font-family: "SocialFoundicons";
 }
