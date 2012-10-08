@@ -3,7 +3,7 @@ source :rubygems
 gem 'thin'
 gem 'sinatra'
 gem 'jekyll'
-gem 'redcloth'
+gem 'RedCloth'
 gem 'compass'
 
 gem 'zurb-foundation'
