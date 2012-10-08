@@ -17,6 +17,7 @@ get '/*' do
   if File.exists?(file)
     send_file file
   else
+    puts(file)
     not_found
   end
 end
