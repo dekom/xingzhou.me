@@ -1,6 +1,6 @@
 pygments: true
 lis: true
 
-exclude: ["Gemfile", "Gemfile.lock"]
+exclude: ["Gemfile", "Gemfile.lock", "Profile"]
 
 fullcalendar: "/fullcalendar-1.5.4/fullcalendar"
