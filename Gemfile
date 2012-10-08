@@ -1,11 +1,11 @@
 source :rubygems
 
-gem 'jekyll'
-gem 'compass'
-gem 'zurb-foundation'
 gem 'thin'
-gem 'rack-contrib'
+gem 'sinatra'
 
 group :development do
+  gem 'jekyll'
+  gem 'compass'
+  gem 'zurb-foundation'
   gem 'shotgun'
 end

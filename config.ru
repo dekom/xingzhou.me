@@ -1,8 +1,4 @@
-require 'rack/contrib/try_static'
+require 'sinatra'
+require './static'
 
-use Rack::TryStatic,
-  :root => "_site",
-  :urls => %w[/],
-  :try => ['.html', 'index.html', '/index.html']
-
-run lambda { [404, {'Content-Type' => 'text/html'}, ['whoops! Not Found']]}
+run Sinatra::Application

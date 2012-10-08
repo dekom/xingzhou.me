@@ -99,3 +99,21 @@ footer {
     }
   }
 }
+
+#missing {
+  @include box-shadow();
+  padding: 2em;
+  margin: { top: 2em; bottom: 2em; }
+
+  h1 {
+    text-align: center;
+    color: lighten($mainColor, 20%);
+  }
+
+  p {
+    &.error {
+      @extend h1;
+      font-size: 10em;
+    }
+  }
+}
