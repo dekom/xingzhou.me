@@ -1,5 +1,6 @@
 pygments: true
 lis: true
+markdown: "maruku"
 
 exclude: ["Gemfile", "Gemfile.lock", "Profile"]
 
