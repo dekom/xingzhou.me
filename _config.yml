@@ -2,6 +2,6 @@ pygments: true
 lis: true
 markdown: "maruku"
 
-exclude: ["Gemfile", "Gemfile.lock", "Profile", "vendor/"]
+exclude: ["Gemfile", "Gemfile.lock", "Profile", "vendor"]
 
 fullcalendar: "/fullcalendar-1.5.4/fullcalendar"
