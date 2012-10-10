@@ -1,6 +1,6 @@
 pygments: true
 lis: true
-markdown: "redcarpet"
+markdown: "kramdown"
 
 exclude: ["Gemfile", "Gemfile.lock", "Profile", "vendor", "sass", "static.rb", "config.rb", "config.ru", "*~", "*.swp"]
 
