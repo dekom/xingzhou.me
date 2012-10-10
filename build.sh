@@ -1,6 +1,9 @@
 #! /bin/sh
 
 rvm --create gemset use xingzhou.me
-compass compile .
-jekyll --no-server
+
+compass watch . &
+
+jekyll --no-server --auto &
+
 shotgun

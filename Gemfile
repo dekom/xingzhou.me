@@ -3,6 +3,7 @@ source :rubygems
 gem 'thin'
 gem 'sinatra'
 gem 'jekyll'
+gem 'redcarpet'
 gem 'RedCloth'
 
 group :development do

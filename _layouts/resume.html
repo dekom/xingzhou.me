@@ -7,12 +7,24 @@ title: Resume
   <section class="twelve columns">
     <div class="alert-box success"><i class="general foundicon-tools"></i> Work In Progress...</div>
   </section>
-  <section class="twelve columns">
+</div>
+
+<div class="row">
+  <section class="four columns">
+    {% include contact.html %}
+  </section>
+</div>
+
+<div class="row">
+  <section class="eight columns">
     {{ content }}
   </section>
-  <div class="twelve columns">
+</div>
+
+<div class="row">
+  <section class="twelve columns">
     <div class="panel">
-      <p>Updated: {{ page.time }}</p>
+      <p>Updated: <time datetime="{{ page.time }}">{{ page.time | date_to_long_string }}</time></p>
     </div>
-  </div>
+  </section>
 </div>

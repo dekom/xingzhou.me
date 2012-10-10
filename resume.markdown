@@ -1,6 +1,6 @@
 ---
 layout: resume
-time: 2012 October 06
+time: 2012-10-06
 ---
 
 # Objective #
@@ -9,7 +9,13 @@ time: 2012 October 06
 
 # Experience #
 
+## Pensieve LLC ##
+
+Software Engineer
+
 ## Neighborhood Learning Alliance ##
+
+Web Developer
 
 # Projects #
 
@@ -20,6 +26,10 @@ time: 2012 October 06
 ## Compression ##
 
 # Education #
+
+Carnegie Mellon University, School of Computer Science  
+
+Bachelor of Science, Computer Science, expected 2015
 
 <!--Carngie Mellon University, School of Computer Science-->
 <!--Expected Bachelor of Science in Computer Science, 2015-->

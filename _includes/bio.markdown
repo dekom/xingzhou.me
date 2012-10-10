@@ -1,4 +1,4 @@
-#### Biography ####
+## About Me ##
 
 Hello! My name is Xing Zhou (dekom).  I am currently an undergraduate student
 at [Carnegie Mellon University][cmu] working towards a B.S. in Computer
@@ -13,12 +13,24 @@ a pretzel and pulling out my hair, I also enjoy [biking][bike] and
 [bike]: http://bike-pgh.org/
 [ddp]: http://www.ddpyoga.com/
 
-#### Philosophy ####
+### Philosophy ###
+
 > Any words not spoken are not worth speaking.  Instead, speak out and leave no
 > regrets.
 
-#### Favorite saying ####
+### Quote ###
+
 > carpe diem, quam minimum credula postero
 > <small markdown='1'>[Odes 1.11][odes]</small>
 
 [odes]: http://la.wikisource.org/wiki/Carmina_(Horatius)/Liber_I/Carmen_XI
+
+---
+
+## Current Book ##
+
+*How will you measure your life?* - Clayton M. Christensen
+
+### In Queue ###
+
+*Introducing HTML5 (2nd Edition)* - Bruce Lawson & Remy Sharp

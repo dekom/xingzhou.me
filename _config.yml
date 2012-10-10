@@ -1,7 +1,7 @@
 pygments: true
 lis: true
-markdown: "maruku"
+markdown: "redcarpet"
 
-exclude: ["Gemfile", "Gemfile.lock", "Profile", "vendor", "sass", "static.rb", "config.rb", "config.ru"]
+exclude: ["Gemfile", "Gemfile.lock", "Profile", "vendor", "sass", "static.rb", "config.rb", "config.ru", "*~", "*.swp"]
 
 fullcalendar: "/fullcalendar-1.5.4/fullcalendar"

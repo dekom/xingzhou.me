@@ -3,14 +3,24 @@ layout: default
 title: Xing Zhou
 ---
 
-<section class="row">
-  <article class="nine columns" id="recent_post">
-    {% for post in site.posts limit:1 %}
-      <h3>{{post.title}} <small>{{post.date || date_to_long_string }}</small></h3>
-      <section>
-        {{ post.content }}
+<section class="row" id="main">
+  <article class="nine columns" >
+    <h1>Most Recent Post</h1>
+
+    <hr />
+
+    <div class="row">
+      <section class="twleve columns" id="recent_post">
+
+        {% for post in site.posts limit:1 %}
+          <h1>{{post.title}} <small>{{post.date || date_to_long_string }}</small></h1>
+          <section>
+            {{ post.content }}
+          </section>
+        {% endfor %}
+        
       </section>
-    {% endfor %}
+    </div>
   </article>
 
   <div class="three columns" id="bio">
