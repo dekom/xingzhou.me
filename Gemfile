@@ -4,6 +4,7 @@ gem 'thin'
 gem 'sinatra'
 gem 'jekyll'
 gem 'RedCloth'
+gem 'coderay'
 
 group :development do
   gem 'zurb-foundation'
