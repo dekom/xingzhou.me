@@ -43,7 +43,7 @@ a:focus {
 }
 
 /* line 14, ../../../.rvm/gems/ruby-1.9.3-p194@xingzhou.me/gems/zurb-foundation-3.1.1/scss/foundation/common/_globals.scss */
-p a, blockquote ul li ul li a, blockquote dl li ul li a, blockquote ul li dl li a, blockquote dl li dl li a, p a:visited, blockquote ul li ul li a:visited, blockquote dl li ul li a:visited, blockquote ul li dl li a:visited, blockquote dl li dl li a:visited {
+p a, p a:visited {
   line-height: inherit;
 }
 
@@ -123,7 +123,7 @@ figure {
 
 /* Base Type Styles Using Modular Scale ---------------------- */
 /* line 3, ../../../.rvm/gems/ruby-1.9.3-p194@xingzhou.me/gems/zurb-foundation-3.1.1/scss/foundation/common/_typography.scss */
-body, div, dl, dt, dd, ul, dl, ol, li, h1, #missing p.error, #missing blockquote ul li ul li.error, blockquote ul li ul #missing li.error, #missing blockquote dl li ul li.error, blockquote dl li ul #missing li.error, #missing blockquote ul li dl li.error, blockquote ul li dl #missing li.error, #missing blockquote dl li dl li.error, blockquote dl li dl #missing li.error, h2, h3, h4, h5, h6, dl dt, pre, form, p, blockquote ul li ul li, blockquote dl li ul li, blockquote ul li dl li, blockquote dl li dl li, blockquote, th, td {
+body, div, dl, dt, dd, ul, dl, ol, li, h1, #missing p.error, h2, h3, h4, h5, h6, dl dt, pre, form, p, blockquote, th, td {
   margin: 0;
   padding: 0;
   font-size: 14px;
@@ -131,7 +131,7 @@ body, div, dl, dt, dd, ul, dl, ol, li, h1, #missing p.error, #missing blockquote
 }
 
 /* line 10, ../../../.rvm/gems/ruby-1.9.3-p194@xingzhou.me/gems/zurb-foundation-3.1.1/scss/foundation/common/_typography.scss */
-p, blockquote ul li ul li, blockquote dl li ul li, blockquote ul li dl li, blockquote dl li dl li {
+p {
   font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-weight: normal;
   font-size: 14px;
@@ -139,21 +139,21 @@ p, blockquote ul li ul li, blockquote dl li ul li, blockquote ul li dl li, block
   margin-bottom: 19px;
 }
 /* line 11, ../../../.rvm/gems/ruby-1.9.3-p194@xingzhou.me/gems/zurb-foundation-3.1.1/scss/foundation/common/_typography.scss */
-p.lead, blockquote ul li ul li.lead, blockquote dl li ul li.lead, blockquote ul li dl li.lead, blockquote dl li dl li.lead {
+p.lead {
   font-size: 17.5px;
   line-height: 1.6;
   margin-bottom: 19px;
 }
 
 /* line 13, ../../../.rvm/gems/ruby-1.9.3-p194@xingzhou.me/gems/zurb-foundation-3.1.1/scss/foundation/common/_typography.scss */
-aside p, aside blockquote ul li ul li, blockquote ul li ul aside li, aside blockquote dl li ul li, blockquote dl li ul aside li, aside blockquote ul li dl li, blockquote ul li dl aside li, aside blockquote dl li dl li, blockquote dl li dl aside li {
+aside p {
   font-size: 13px;
   line-height: 1.35;
   font-style: italic;
 }
 
 /* line 15, ../../../.rvm/gems/ruby-1.9.3-p194@xingzhou.me/gems/zurb-foundation-3.1.1/scss/foundation/common/_typography.scss */
-h1, #missing p.error, #missing blockquote ul li ul li.error, blockquote ul li ul #missing li.error, #missing blockquote dl li ul li.error, blockquote dl li ul #missing li.error, #missing blockquote ul li dl li.error, blockquote ul li dl #missing li.error, #missing blockquote dl li dl li.error, blockquote dl li dl #missing li.error, h2, h3, h4, h5, h6, dl dt {
+h1, #missing p.error, h2, h3, h4, h5, h6, dl dt {
   font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-weight: bold;
   color: #222222;
@@ -163,14 +163,14 @@ h1, #missing p.error, #missing blockquote ul li ul li.error, blockquote ul li ul
   margin-top: 14px;
 }
 /* line 23, ../../../.rvm/gems/ruby-1.9.3-p194@xingzhou.me/gems/zurb-foundation-3.1.1/scss/foundation/common/_typography.scss */
-h1 small, #missing p.error small, #missing blockquote ul li ul li.error small, blockquote ul li ul #missing li.error small, #missing blockquote dl li ul li.error small, blockquote dl li ul #missing li.error small, #missing blockquote ul li dl li.error small, blockquote ul li dl #missing li.error small, #missing blockquote dl li dl li.error small, blockquote dl li dl #missing li.error small, h2 small, h3 small, h4 small, h5 small, h6 small, dl dt small {
+h1 small, #missing p.error small, h2 small, h3 small, h4 small, h5 small, h6 small, dl dt small {
   font-size: 60%;
   color: #6f6f6f;
   line-height: 0;
 }
 
 /* line 26, ../../../.rvm/gems/ruby-1.9.3-p194@xingzhou.me/gems/zurb-foundation-3.1.1/scss/foundation/common/_typography.scss */
-h1, #missing p.error, #missing blockquote ul li ul li.error, blockquote ul li ul #missing li.error, #missing blockquote dl li ul li.error, blockquote dl li ul #missing li.error, #missing blockquote ul li dl li.error, blockquote ul li dl #missing li.error, #missing blockquote dl li dl li.error, blockquote dl li dl #missing li.error {
+h1, #missing p.error {
   font-size: 33px;
 }
 
@@ -299,7 +299,7 @@ ol li ul, ol li dl, ol li ol {
 
 /* Blockquotes ---------------------- */
 /* line 68, ../../../.rvm/gems/ruby-1.9.3-p194@xingzhou.me/gems/zurb-foundation-3.1.1/scss/foundation/common/_typography.scss */
-blockquote, blockquote p, blockquote ul li ul li, blockquote dl li ul li, blockquote ul li dl li, blockquote dl li dl li {
+blockquote, blockquote p {
   line-height: 1.5;
   color: #6f6f6f;
 }
@@ -410,7 +410,7 @@ abbr {
 }
 
   /* line 97, ../../../.rvm/gems/ruby-1.9.3-p194@xingzhou.me/gems/zurb-foundation-3.1.1/scss/foundation/common/_typography.scss */
-  p, blockquote ul li ul li, blockquote dl li ul li, blockquote ul li dl li, blockquote dl li dl li, h2, h3 {
+  p, h2, h3 {
     orphans: 3;
     widows: 3;
   }
@@ -2395,7 +2395,7 @@ div.button-bar ul.button-group:last-child, div.button-bar dl.button-group:last-c
   /* remove margin on last element */
 }
 /* line 53, ../../../.rvm/gems/ruby-1.9.3-p194@xingzhou.me/gems/zurb-foundation-3.1.1/scss/foundation/components/modules/_navbar.scss */
-.flyout p, .flyout blockquote ul li ul li, blockquote ul li ul .flyout li, .flyout blockquote dl li ul li, blockquote dl li ul .flyout li, .flyout blockquote ul li dl li, blockquote ul li dl .flyout li, .flyout blockquote dl li dl li, blockquote dl li dl .flyout li {
+.flyout p {
   line-height: 1.2;
   font-size: 13px;
 }
@@ -2569,7 +2569,7 @@ ul.flyout li.active a, dl.flyout li.active a, .nav-bar li ul li.active a, .nav-b
     width: 100% !important;
   }
   /* line 107, ../../../.rvm/gems/ruby-1.9.3-p194@xingzhou.me/gems/zurb-foundation-3.1.1/scss/foundation/components/modules/_navbar.scss */
-  .flyout p:last-child, .flyout blockquote ul li ul li:last-child, blockquote ul li ul .flyout li:last-child, .flyout blockquote dl li ul li:last-child, blockquote dl li ul .flyout li:last-child, .flyout blockquote ul li dl li:last-child, blockquote ul li dl .flyout li:last-child, .flyout blockquote dl li dl li:last-child, blockquote dl li dl .flyout li:last-child {
+  .flyout p:last-child {
     margin-bottom: 18px;
   }
 }
@@ -2629,12 +2629,12 @@ ul.flyout li.active a, dl.flyout li.active a, .nav-bar li ul li.active a, .nav-b
   margin: 0 auto;
 }
 /* line 33, ../../../.rvm/gems/ruby-1.9.3-p194@xingzhou.me/gems/zurb-foundation-3.1.1/scss/foundation/components/modules/_topbar.scss */
-.top-bar > ul .name h1, .top-bar > dl .name h1, .top-bar > ul .name #missing p.error, #missing .top-bar > ul .name p.error, .top-bar > dl .name #missing p.error, #missing .top-bar > dl .name p.error, #missing blockquote .top-bar > ul .name li ul li.error, #missing blockquote .top-bar > ul li ul .name li.error, .top-bar > dl .name #missing blockquote ul li ul li.error, blockquote .top-bar > ul .name li ul #missing li.error, blockquote .top-bar > ul li ul #missing .name li.error, .top-bar > dl .name blockquote ul li ul #missing li.error, blockquote ul li ul #missing .top-bar > dl .name li.error, #missing blockquote dl li .top-bar > ul .name li.error, #missing blockquote .top-bar > dl .name li ul li.error, #missing blockquote .top-bar > dl li ul .name li.error, blockquote dl li .top-bar > ul .name #missing li.error, blockquote dl li .top-bar > ul #missing .name li.error, blockquote .top-bar > dl .name li ul #missing li.error, blockquote .top-bar > dl li ul #missing .name li.error, #missing blockquote .top-bar > ul .name li dl li.error, #missing blockquote .top-bar > ul li dl .name li.error, #missing blockquote ul li .top-bar > dl .name li.error, blockquote .top-bar > ul .name li dl #missing li.error, blockquote .top-bar > ul li dl #missing .name li.error, blockquote ul li .top-bar > dl .name #missing li.error, blockquote ul li .top-bar > dl #missing .name li.error, .top-bar > ul .name #missing blockquote dl li dl li.error, #missing blockquote .top-bar > dl .name li dl li.error, #missing blockquote .top-bar > dl li dl .name li.error, .top-bar > ul .name blockquote dl li dl #missing li.error, blockquote dl li dl #missing .top-bar > ul .name li.error, blockquote .top-bar > dl .name li dl #missing li.error, blockquote .top-bar > dl li dl #missing .name li.error {
+.top-bar > ul .name h1, .top-bar > dl .name h1, .top-bar > ul .name #missing p.error, #missing .top-bar > ul .name p.error, .top-bar > dl .name #missing p.error, #missing .top-bar > dl .name p.error {
   line-height: 45px;
   margin: 0;
 }
 /* line 34, ../../../.rvm/gems/ruby-1.9.3-p194@xingzhou.me/gems/zurb-foundation-3.1.1/scss/foundation/components/modules/_topbar.scss */
-.top-bar > ul .name h1 a, .top-bar > dl .name h1 a, .top-bar > ul .name #missing p.error a, #missing .top-bar > ul .name p.error a, .top-bar > dl .name #missing p.error a, #missing .top-bar > dl .name p.error a, #missing blockquote .top-bar > ul .name li ul li.error a, #missing blockquote .top-bar > ul li ul .name li.error a, .top-bar > dl .name #missing blockquote ul li ul li.error a, blockquote .top-bar > ul .name li ul #missing li.error a, blockquote .top-bar > ul li ul #missing .name li.error a, .top-bar > dl .name blockquote ul li ul #missing li.error a, blockquote ul li ul #missing .top-bar > dl .name li.error a, #missing blockquote dl li .top-bar > ul .name li.error a, #missing blockquote .top-bar > dl .name li ul li.error a, #missing blockquote .top-bar > dl li ul .name li.error a, blockquote dl li .top-bar > ul .name #missing li.error a, blockquote dl li .top-bar > ul #missing .name li.error a, blockquote .top-bar > dl .name li ul #missing li.error a, blockquote .top-bar > dl li ul #missing .name li.error a, #missing blockquote .top-bar > ul .name li dl li.error a, #missing blockquote .top-bar > ul li dl .name li.error a, #missing blockquote ul li .top-bar > dl .name li.error a, blockquote .top-bar > ul .name li dl #missing li.error a, blockquote .top-bar > ul li dl #missing .name li.error a, blockquote ul li .top-bar > dl .name #missing li.error a, blockquote ul li .top-bar > dl #missing .name li.error a, .top-bar > ul .name #missing blockquote dl li dl li.error a, #missing blockquote .top-bar > dl .name li dl li.error a, #missing blockquote .top-bar > dl li dl .name li.error a, .top-bar > ul .name blockquote dl li dl #missing li.error a, blockquote dl li dl #missing .top-bar > ul .name li.error a, blockquote .top-bar > dl .name li dl #missing li.error a, blockquote .top-bar > dl li dl #missing .name li.error a {
+.top-bar > ul .name h1 a, .top-bar > dl .name h1 a, .top-bar > ul .name #missing p.error a, #missing .top-bar > ul .name p.error a, .top-bar > dl .name #missing p.error a, #missing .top-bar > dl .name p.error a {
   font-weight: bold;
   padding: 0 22.5px;
   font-size: 19px !important;
@@ -2999,11 +2999,11 @@ ul.flyout li.active a, dl.flyout li.active a, .nav-bar li ul li.active a, .nav-b
     background: #330000;
   }
   /* line 157, ../../../.rvm/gems/ruby-1.9.3-p194@xingzhou.me/gems/zurb-foundation-3.1.1/scss/foundation/components/modules/_topbar.scss */
-  .top-bar ul li.name h1, .top-bar dl li.name h1, .top-bar ul li.name #missing p.error, #missing .top-bar ul li.name p.error, .top-bar dl li.name #missing p.error, #missing .top-bar dl li.name p.error, .top-bar #missing blockquote ul li.name ul li.error, #missing blockquote .top-bar ul li.name ul li.error, .top-bar blockquote ul li.name ul #missing li.error, blockquote .top-bar ul li.name ul #missing li.error, .top-bar #missing blockquote dl li.name ul li.error, #missing blockquote .top-bar dl li.name ul li.error, .top-bar blockquote dl li.name ul #missing li.error, blockquote .top-bar dl li.name ul #missing li.error, .top-bar #missing blockquote ul li.name dl li.error, #missing blockquote .top-bar ul li.name dl li.error, .top-bar blockquote ul li.name dl #missing li.error, blockquote .top-bar ul li.name dl #missing li.error, .top-bar #missing blockquote dl li.name dl li.error, #missing blockquote .top-bar dl li.name dl li.error, .top-bar blockquote dl li.name dl #missing li.error, blockquote .top-bar dl li.name dl #missing li.error {
+  .top-bar ul li.name h1, .top-bar dl li.name h1, .top-bar ul li.name #missing p.error, #missing .top-bar ul li.name p.error, .top-bar dl li.name #missing p.error, #missing .top-bar dl li.name p.error {
     line-height: 1;
   }
   /* line 158, ../../../.rvm/gems/ruby-1.9.3-p194@xingzhou.me/gems/zurb-foundation-3.1.1/scss/foundation/components/modules/_topbar.scss */
-  .top-bar ul li.name h1 a, .top-bar dl li.name h1 a, .top-bar ul li.name #missing p.error a, #missing .top-bar ul li.name p.error a, .top-bar dl li.name #missing p.error a, #missing .top-bar dl li.name p.error a, .top-bar #missing blockquote ul li.name ul li.error a, #missing blockquote .top-bar ul li.name ul li.error a, .top-bar blockquote ul li.name ul #missing li.error a, blockquote .top-bar ul li.name ul #missing li.error a, .top-bar #missing blockquote dl li.name ul li.error a, #missing blockquote .top-bar dl li.name ul li.error a, .top-bar blockquote dl li.name ul #missing li.error a, blockquote .top-bar dl li.name ul #missing li.error a, .top-bar #missing blockquote ul li.name dl li.error a, #missing blockquote .top-bar ul li.name dl li.error a, .top-bar blockquote ul li.name dl #missing li.error a, blockquote .top-bar ul li.name dl #missing li.error a, .top-bar #missing blockquote dl li.name dl li.error a, #missing blockquote .top-bar dl li.name dl li.error a, .top-bar blockquote dl li.name dl #missing li.error a, blockquote .top-bar dl li.name dl #missing li.error a {
+  .top-bar ul li.name h1 a, .top-bar dl li.name h1 a, .top-bar ul li.name #missing p.error a, #missing .top-bar ul li.name p.error a, .top-bar dl li.name #missing p.error a, #missing .top-bar dl li.name p.error a {
     padding-left: 22.5px;
   }
   /* line 163, ../../../.rvm/gems/ruby-1.9.3-p194@xingzhou.me/gems/zurb-foundation-3.1.1/scss/foundation/components/modules/_topbar.scss */
@@ -4478,7 +4478,7 @@ ul.accordion > li .title, dl.accordion > li .title {
   transition: 0.15s background linear;
 }
 /* line 236, ../../../.rvm/gems/ruby-1.9.3-p194@xingzhou.me/gems/zurb-foundation-3.1.1/scss/foundation/components/modules/_ui.scss */
-ul.accordion > li .title h1, dl.accordion > li .title h1, ul.accordion > li .title #missing p.error, #missing ul.accordion > li .title p.error, dl.accordion > li .title #missing p.error, #missing dl.accordion > li .title p.error, #missing blockquote ul.accordion > li .title li ul li.error, #missing blockquote ul.accordion > li li ul .title li.error, #missing blockquote ul dl.accordion > li .title ul li.error, #missing blockquote ul dl.accordion > li ul .title li.error, blockquote ul.accordion > li .title li ul #missing li.error, blockquote ul.accordion > li li ul #missing .title li.error, blockquote ul dl.accordion > li .title ul #missing li.error, blockquote ul dl.accordion > li ul #missing .title li.error, #missing blockquote dl ul.accordion > li .title ul li.error, #missing blockquote dl ul.accordion > li ul .title li.error, #missing blockquote dl.accordion > li .title li ul li.error, #missing blockquote dl.accordion > li li ul .title li.error, blockquote dl ul.accordion > li .title ul #missing li.error, blockquote dl ul.accordion > li ul #missing .title li.error, blockquote dl.accordion > li .title li ul #missing li.error, blockquote dl.accordion > li li ul #missing .title li.error, #missing blockquote ul.accordion > li .title li dl li.error, #missing blockquote ul.accordion > li li dl .title li.error, #missing blockquote ul dl.accordion > li .title dl li.error, #missing blockquote ul dl.accordion > li dl .title li.error, blockquote ul.accordion > li .title li dl #missing li.error, blockquote ul.accordion > li li dl #missing .title li.error, blockquote ul dl.accordion > li .title dl #missing li.error, blockquote ul dl.accordion > li dl #missing .title li.error, #missing blockquote dl ul.accordion > li .title dl li.error, #missing blockquote dl ul.accordion > li dl .title li.error, #missing blockquote dl.accordion > li .title li dl li.error, #missing blockquote dl.accordion > li li dl .title li.error, blockquote dl ul.accordion > li .title dl #missing li.error, blockquote dl ul.accordion > li dl #missing .title li.error, blockquote dl.accordion > li .title li dl #missing li.error, blockquote dl.accordion > li li dl #missing .title li.error, ul.accordion > li .title h2, dl.accordion > li .title h2, ul.accordion > li .title h3, dl.accordion > li .title h3, ul.accordion > li .title h4, dl.accordion > li .title h4, ul.accordion > li .title h5, dl.accordion > li .title h5 {
+ul.accordion > li .title h1, dl.accordion > li .title h1, ul.accordion > li .title #missing p.error, #missing ul.accordion > li .title p.error, dl.accordion > li .title #missing p.error, #missing dl.accordion > li .title p.error, ul.accordion > li .title h2, dl.accordion > li .title h2, ul.accordion > li .title h3, dl.accordion > li .title h3, ul.accordion > li .title h4, dl.accordion > li .title h4, ul.accordion > li .title h5, dl.accordion > li .title h5 {
   margin: 0;
 }
 /* line 237, ../../../.rvm/gems/ruby-1.9.3-p194@xingzhou.me/gems/zurb-foundation-3.1.1/scss/foundation/components/modules/_ui.scss */
@@ -4895,11 +4895,11 @@ ul.vcard li.fn, dl.vcard li.fn {
 }
 
 /* line 389, ../../../.rvm/gems/ruby-1.9.3-p194@xingzhou.me/gems/zurb-foundation-3.1.1/scss/foundation/components/modules/_ui.scss */
-p.vevent span.summary, blockquote ul li ul li.vevent span.summary, blockquote dl li ul li.vevent span.summary, blockquote ul li dl li.vevent span.summary, blockquote dl li dl li.vevent span.summary {
+p.vevent span.summary {
   font-weight: bold;
 }
 /* line 390, ../../../.rvm/gems/ruby-1.9.3-p194@xingzhou.me/gems/zurb-foundation-3.1.1/scss/foundation/components/modules/_ui.scss */
-p.vevent abbr, blockquote ul li ul li.vevent abbr, blockquote dl li ul li.vevent abbr, blockquote ul li dl li.vevent abbr, blockquote dl li dl li.vevent abbr {
+p.vevent abbr {
   cursor: default;
   text-decoration: none;
   font-weight: bold;
@@ -5001,39 +5001,39 @@ footer .has-tip:hover {
   border: none;
 }
 
-/* line 94, ../sass/app.scss */
+/* line 88, ../sass/app.scss */
 dl dd {
   margin-left: 1em;
 }
 
-/* line 99, ../sass/app.scss */
+/* line 93, ../sass/app.scss */
 #bio {
   border-left: 2px outset gray;
 }
 
-/* line 104, ../sass/app.scss */
+/* line 98, ../sass/app.scss */
 #social ul, #social dl {
   list-style: none;
 }
-/* line 108, ../sass/app.scss */
+/* line 102, ../sass/app.scss */
 #social li {
   font-size: 25px;
 }
 
-/* line 114, ../sass/app.scss */
+/* line 108, ../sass/app.scss */
 #attributions ul, #attributions dl {
   list-style: none;
 }
-/* line 116, ../sass/app.scss */
+/* line 110, ../sass/app.scss */
 #attributions ul ul, #attributions dl ul, #attributions ul dl, #attributions dl dl {
   margin-left: 0px;
 }
-/* line 118, ../sass/app.scss */
+/* line 112, ../sass/app.scss */
 #attributions ul ul li:before, #attributions dl ul li:before, #attributions ul dl li:before, #attributions dl dl li:before {
   content: "\2713";
 }
 
-/* line 125, ../sass/app.scss */
+/* line 119, ../sass/app.scss */
 #missing {
   -webkit-box-shadow: 0px 0px 5px #333333;
   -moz-box-shadow: 0px 0px 5px #333333;
@@ -5042,16 +5042,16 @@ dl dd {
   margin-top: 2em;
   margin-bottom: 2em;
 }
-/* line 130, ../sass/app.scss */
-#missing h1, #missing p.error, #missing blockquote ul li ul li.error, blockquote ul li ul #missing li.error, #missing blockquote dl li ul li.error, blockquote dl li ul #missing li.error, #missing blockquote ul li dl li.error, blockquote ul li dl #missing li.error, #missing blockquote dl li dl li.error, blockquote dl li dl #missing li.error {
+/* line 124, ../sass/app.scss */
+#missing h1, #missing p.error {
   text-align: center;
   color: red;
 }
-/* line 136, ../sass/app.scss */
-#missing p.error, #missing blockquote ul li ul li.error, blockquote ul li ul #missing li.error, #missing blockquote dl li ul li.error, blockquote dl li ul #missing li.error, #missing blockquote ul li dl li.error, blockquote ul li dl #missing li.error, #missing blockquote dl li dl li.error, blockquote dl li dl #missing li.error {
+/* line 130, ../sass/app.scss */
+#missing p.error {
   font-size: 33px;
 }
-/* line 141, ../sass/app.scss */
-#missing p.icon, #missing blockquote ul li ul li.icon, blockquote ul li ul #missing li.icon, #missing blockquote dl li ul li.icon, blockquote dl li ul #missing li.icon, #missing blockquote ul li dl li.icon, blockquote ul li dl #missing li.icon, #missing blockquote dl li dl li.icon, blockquote dl li dl #missing li.icon {
+/* line 135, ../sass/app.scss */
+#missing p.icon {
   font-size: 59px;
 }

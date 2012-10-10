@@ -13,7 +13,7 @@ title: Xing Zhou
       <section class="twleve columns" id="recent_post">
 
         {% for post in site.posts limit:1 %}
-          <h1>{{post.title}} <small>{{post.date || date_to_long_string }}</small></h1>
+        <h1>{{post.title}} <a href="{{post.url}}"><small>{{post.date || date_to_long_string }}</small></a></h1>
           <section>
             {{ post.content }}
           </section>

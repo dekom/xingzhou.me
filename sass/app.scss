@@ -78,12 +78,6 @@ footer {
   }
 }
 
-blockquote {
-  ul li ul li {
-    @extend p;
-  }
-}
-
 dl {
   @extend ul;
 
