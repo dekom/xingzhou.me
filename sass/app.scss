@@ -64,6 +64,10 @@ body {
   vertical-align: middle;
 }
 
+address.vcard > span {
+  display: block;
+}
+
 footer {
   .has-tip {
     color: inherit;
@@ -88,10 +92,6 @@ dl {
   dd {
     margin-left: 1em;
   }
-}
-
-#bio {
-  border-left: 2px outset gray;
 }
 
 #social {

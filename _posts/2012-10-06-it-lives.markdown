@@ -27,10 +27,4 @@ app) and can be easily deployed to Heroku.  The issue is speed.  The dynamic
 compilation of markdown documents into HTML is slow and unnecessary.  Static
 files should be served statically.
 
-```ruby
-def test
-  puts 'test'
-end
-```
-
 [enki]: http://enkiblog.com/
