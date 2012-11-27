@@ -19,6 +19,14 @@ Web Developer
 
 # Projects #
 
+* LeX: personal vocabulary builder
+
+* Chess Bot
+
+* Seam Carving
+
+* Compression
+
 ## Chess Bot ##
 
 ## Seam Carving ##
