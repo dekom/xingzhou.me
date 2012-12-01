@@ -13,9 +13,24 @@ time: 2012-10-06
 
 Software Engineer
 
+* design and code screencasting tool with JavaScript and HTML5 canvas
+* screencasting tool became integral to acquire funding
+* create Python-based CLI console to manage users and courses using SQLAlchemy
+* refactor MVC into fat model and slim controller
+* actively recruited course creators to the site for customer feedback
+
 ## Neighborhood Learning Alliance ##
 
 Web Developer
+
+* design and code organization website
+  * RefineryCMS
+  * Twitter Bootstrap
+  * Heroku
+  * Amazon S3
+* design and code registration site for Pittsburgh CONNECTS
+  * link to Samba 4 and Windows Active Directory using LDAP
+  * migrate data between databases with rake files
 
 # Projects #
 
@@ -26,12 +41,6 @@ Web Developer
 * Seam Carving
 
 * Compression
-
-## Chess Bot ##
-
-## Seam Carving ##
-
-## Compression ##
 
 # Education #
 
