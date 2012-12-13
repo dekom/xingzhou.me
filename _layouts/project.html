@@ -4,10 +4,14 @@ layout: default
 
 <article>
   <header>
-    <h1 id="project-title">{{page.title}}<a id="repo-link"
-        href="{{page.repo}}">Repository</a></h1>
-    <p>{{page.subtitle}}</p>
-    <hr />
+    <h1 id="project-title">{{page.title}}
+      <small>
+        {{page.subtitle}}
+      </small>
+      <small>
+        <a id="repo-link" href="{{page.repo}}">Repository</a>
+      </small>
+    </h1>
   </header>
 
   <section>

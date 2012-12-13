@@ -39,11 +39,11 @@ body {
 a {
   color: $main;
   text-decoration: none;
-  font-weight: bold;
   cursor: hand;
 
   &:hover {
     @extend .alt;
+    @include border-radius();
   }
 }
 
@@ -51,6 +51,12 @@ header {
   h1 {
     margin-top: 1em;
     margin-bottom: 1em;
+  }
+}
+
+h1 {
+  small {
+    color: grey;
   }
 }
 
