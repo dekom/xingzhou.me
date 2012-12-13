@@ -40,7 +40,7 @@
   <body>
     <header id="header">
       <a href="/">
-        <img src="http://www.gravatar.com/avatar/6e350b82fd57e19576a85aa862423e60.png">
+        <img id="logo" src="http://www.gravatar.com/avatar/6e350b82fd57e19576a85aa862423e60.png">
       </a>
       <div>
         <h1><a href="/">Xing Zhou</a></h1>
@@ -50,7 +50,7 @@
     </header>
 
     <nav id='side'>
-      <article id='projectsList'>
+      <article id='projects'>
         {% capture projects %}
           {% include projects.markdown %}
         {% endcapture %}

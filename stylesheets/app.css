@@ -413,12 +413,12 @@ body {
 }
 
 /* line 27, ../sass/app.scss */
-.normal, #side ul li a:hover {
+.normal, #side ul li a:hover, #side ul li a.selected {
   color: black;
   background: white;
 }
 /* line 30, ../sass/app.scss */
-.normal a, #side ul li a:hover a {
+.normal a, #side ul li a:hover a, #side ul li a.selected a {
   color: black;
 }
 
@@ -475,6 +475,10 @@ h1 small {
 /* line 72, ../sass/app.scss */
 #header img {
   display: inline-block;
+  border: thick solid white;
+  -webkit-box-shadow: 0px 0px 5px #333333;
+  -moz-box-shadow: 0px 0px 5px #333333;
+  box-shadow: 0px 0px 5px #333333;
   margin: 10px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -482,23 +486,23 @@ h1 small {
   -o-border-radius: 5px;
   border-radius: 5px;
 }
-/* line 78, ../sass/app.scss */
+/* line 80, ../sass/app.scss */
 #header div {
   float: right;
   text-align: right;
 }
-/* line 82, ../sass/app.scss */
+/* line 84, ../sass/app.scss */
 #header div h1 {
   margin: 0;
   padding-top: 0.5em;
   padding-bottom: 0.2em;
 }
-/* line 88, ../sass/app.scss */
+/* line 90, ../sass/app.scss */
 #header div a {
   display: block;
 }
 
-/* line 94, ../sass/app.scss */
+/* line 96, ../sass/app.scss */
 #side {
   -webkit-transform-origin: 0;
   -moz-transform-origin: 0;
@@ -517,39 +521,54 @@ h1 small {
   padding-right: 10px;
   padding-top: 10px;
 }
-/* line 105, ../sass/app.scss */
+/* line 107, ../sass/app.scss */
 #side h1 {
   color: grey;
   margin-top: 5px;
   margin-bottom: 10px;
   font-size: 1.5em;
 }
-/* line 112, ../sass/app.scss */
+/* line 114, ../sass/app.scss */
 #side ul {
   width: 100%;
   list-style: none;
   padding: 0;
 }
-/* line 117, ../sass/app.scss */
+/* line 119, ../sass/app.scss */
 #side ul li {
   width: 100%;
   margin-top: 0.5em;
   margin-bottom: 0.5em;
   text-align: right;
 }
-/* line 123, ../sass/app.scss */
+/* line 125, ../sass/app.scss */
 #side ul li a {
   width: 100%;
   display: block;
   padding-right: 5px;
+  padding-left: 5px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
   border-radius: 5px;
 }
-
+/* line 134, ../sass/app.scss */
+#side ul li a:hover {
+  -webkit-box-shadow: 0px 0px 5px #333333;
+  -moz-box-shadow: 0px 0px 5px #333333;
+  box-shadow: 0px 0px 5px #333333;
+}
 /* line 139, ../sass/app.scss */
+#side ul li a.selected {
+  -webkit-box-shadow: 0px 0px 5px #333333;
+  -moz-box-shadow: 0px 0px 5px #333333;
+  box-shadow: 0px 0px 5px #333333;
+  font-weight: bold;
+  text-align: left;
+}
+
+/* line 150, ../sass/app.scss */
 #main {
   vertical-align: top;
   width: 80%;

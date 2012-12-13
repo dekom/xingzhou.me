@@ -18,3 +18,10 @@ layout: default
     {{content}}
   </section>
 </article>
+
+<script>
+$(document).ready(function() {
+  $('#projects').find('.selected').toggleClass('selected')
+  $('#projects').find('[href="{{page.url}}"]').toggleClass('selected')
+})
+</script>
