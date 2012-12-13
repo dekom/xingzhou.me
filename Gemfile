@@ -9,6 +9,7 @@ gem 'coderay'
 group :development do
   gem 'zurb-foundation'
   gem 'compass'
+  gem 'compass-normalize-plugin'
   gem 'shotgun'
   gem 'heroku'
   gem 'foreman'

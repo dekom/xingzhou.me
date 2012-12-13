@@ -27,8 +27,6 @@ a pretzel and pulling out my hair, I also enjoy [biking][bike] and
 
 [odes]: http://la.wikisource.org/wiki/Carmina_(Horatius)/Liber_I/Carmen_XI
 
----
-
 ## Current Book ##
 
 > [How will you measure your life?][theBook]

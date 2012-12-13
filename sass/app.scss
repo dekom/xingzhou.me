@@ -1,139 +1,141 @@
-// You custom settings file to override Foundation defaults
-@import "settings";
+@import 'compass';
+@import 'normalize';
 
-// Comment out this import if you are customizing you imports below
-@import "foundation";
+@include establish-baseline;
 
-// ----------------------------------------
-// Import specific parts of Foundation by commenting the import "foundation"
-// and uncommenting what you want below. You must uncomment the following if customizing
+$main: darkred;
 
-// @import "compass/css3";
-// @import "foundation/settings";
-// @import "foundation/functions/all";
+$bg: white;
+$bgAlt: $main;
+$color: black;
+$colorAlt: white;
 
-// Control which mixins you have access too
+* {
+  @include box-sizing(border-box);
+}
 
-// @import "foundation/mixins/clearfix";
-// @import "foundation/mixins/css-triangle";
-// @import "foundation/mixins/font-size";
-
-// Must include next two for semantic grid to work
-
-// @import "foundation/mixins/respond-to";
-// @import "foundation/mixins/semantic-grid";
-
-// @import "foundation/common/globals";
-// @import "modular-scale";
-
-// Must include the grid for any responsiveness
-
-// @import "foundation/components/grid";
-
-// Control which common styles get compiled
-
-// @import "foundation/common/typography";
-// @import "foundation/common/forms";
-
-// Control which components you get if customizing
-
-// @import "foundation/components/modules/buttons";
-// @import "foundation/components/modules/tabs";
-// @import "foundation/components/modules/ui";
-// @import "foundation/components/modules/topbar";
-// @import "foundation/components/modules/navbar";
-// @import "foundation/components/modules/orbit";
-// @import "foundation/components/modules/reveal";
-// @import "foundation/components/modules/offcanvas";
+html {
+  width: 960px;
+  height: 100%;
+}
 
 body {
-  padding: {top: 55px; }
+  position: relative;
+  padding: 10px;
 }
 
-.top-bar ul {
-  li.toggle-topbar:hover {
-    background: $topBarBgColor;
+.normal {
+  color: $color;
+  background: $bg;
+  a { color: $color; }
+}
+
+.alt {
+  color: $colorAlt;
+  background: $bgAlt;
+  a { color: $colorAlt; }
+}
+
+a {
+  color: $main;
+  text-decoration: none;
+  font-weight: bold;
+  cursor: hand;
+
+  &:hover {
+    @extend .alt;
+  }
+}
+
+header {
+  h1 {
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+}
+
+#repo-link {
+  float: right;
+}
+
+#header {
+  @extend .alt;
+  padding-right: 0.5em;
+  @include border-radius();
+
+  img {
+    display: inline-block;
+    margin: 10px;
+    @include border-radius();
   }
 
-  li.name {
-    background: $topBarBgColor;
-  }
-}
+  div {
+    float: right;
+    text-align: right;
 
-[class*="foundicon-"] {
-  vertical-align: middle;
-}
+    h1 {
+      margin: 0;
+      padding-top: 0.5em;
+      padding-bottom: 0.2em;
+    }
 
-address.vcard > span {
-  display: block;
-}
-
-footer {
-  .has-tip {
-    color: inherit;
-    border: none;
-    cursor: default;
-
-    &:hover {
-      color: $mainColor;
-      cursor: default;
-      border: none;
+    a {
+      display: block;
     }
   }
 }
 
-dl {
-  @extend ul;
+#side {
+  @include apply-origin(0,0);
+  @include skewY(15deg);
 
-  dt {
-    @extend h6;
+  vertical-align: top;
+  width: 20%;
+  display: inline-block;
+  float: left;
+  padding-right: 10px;
+  padding-top: 10px;
+
+  h1 {
+    color: grey;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 1.5em;
   }
 
-  dd {
-    margin-left: 1em;
-  }
-}
-
-#social {
   ul {
+    width: 100%;
     list-style: none;
-  }
+    padding: 0;
 
-  li {
-    font-size: ms(3);
-  }
-}
+    li {
+      width: 100%;
+      margin-top: 0.5em;
+      margin-bottom: 0.5em;
+      text-align: right;
 
-#attributions {
-  ul {
-    list-style: none;
-    ul {
-      margin: { left: 0px; }
-      li:before {
-        content: "\2713";
+      a {
+        @extend .alt;
+        width: 100%;
+        display: block;
+        padding-right: 5px;
+
+        @include border-radius();
+
+        &:hover {
+          @extend .normal;
+        }
       }
     }
   }
 }
 
-#missing {
-  @include box-shadow();
-  padding: 2em;
-  margin: { top: 2em; bottom: 2em; }
+#main {
+  vertical-align: top;
+  width: 80%;
+  display: inline-block;
+}
 
-  h1 {
-    text-align: center;
-    color: lighten($mainColor, 20%);
-  }
-
-  p {
-    &.error {
-      @extend h1;
-      font-size: ms(5);
-    }
-
-    &.icon {
-      font-size: ms(9);
-    }
-  }
+#contact {
+  padding-top: 100px;
 }

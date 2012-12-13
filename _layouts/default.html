@@ -12,14 +12,9 @@
 
     <title>{{ page.title }}</title>
 
-    <link rel="stylesheet" href="/stylesheets/foundicons/general_foundicons.css" type="text/css" />
-    <link rel="stylesheet" href="/stylesheets/foundicons/social_foundicons.css" type="text/css" />
-    <link rel="stylesheet" href="/stylesheets/foundicons/general_enclosed_foundicons.css" type="text/css" />
-    <link rel="stylesheet" href="/stylesheets/foundicons/accessibility_foundicons.css" type="text/css" />
     <link rel="stylesheet" href="/stylesheets/app.css" type="text/css">
 
     <script src="http://code.jquery.com/jquery.min.js" type="text/javascript" charset="utf-8"></script>
-    <script src="/javascripts/foundation/modernizr.foundation.js" type="text/javascript" charset="utf-8"></script>
 
     <!-- IE Fix for HTML5 Tags -->
     <!--[if lt IE 9]>
@@ -43,68 +38,37 @@
       </script>
   </head>
   <body>
-    <header class="row">
-      <div class="twelve columns">
-        <div class="fixed contain-to-grid">
-          <nav class="top-bar">
-            <ul>
-              <li class="name"><h1><a href="/">Xing Zhou <i class="general foundicon-smiley"></i></a></h1></li>
-              <li class="toggle-topbar"><a href="#"></a></li>
-            </ul>
-            <section>
-              <ul class="right">
-                <li><a href="/posts.html"><i class="general foundicon-page"></i> Posts</a></li>
-                <li><a href="/projects.html"><i class="general foundicon-heart"></i> Projects</a></li>
-              </ul>
-            </section>
-          </nav>
-        </div>
+    <header id="header">
+      <img src="http://www.gravatar.com/avatar/6e350b82fd57e19576a85aa862423e60.png">
+      <div>
+        <h1>Xing Zhou</h1>
+        <a href="/resume.html">Resume</a>
+        <a href="http://yongting.xingzhou.me/">Blog</a>
       </div>
     </header>
 
-    {{ content }}
+    <nav id='side'>
+      <article id='projectsList'>
+        {% capture projects %}
+          {% include projects.markdown %}
+        {% endcapture %}
+        {{ projects | unindent | markdownify }}
+      </article>
 
-    <footer class="row">
-      <div class="twelve columns">
-        <hr />
-      </div>
-      <div class="six columns" id="social">
-        <ul class="block-grid five-up twelve columns">
-          {% include social.html %}
-        </ul>
-      </div>
+      <article id='contact'>
+        {% capture social %}
+          {% include social.markdown %}
+        {% endcapture %}
+        {{ social | unindent | markdownify }}
+      </article>
+    </nav>
 
-      <div class="six columns" id="attributions">
-        <ul class="block-grid three-up">
-          <li id="code">
-            site code:
-            <ul>
-              <li><a href="https://github.com/dekom/xingzhou.me">Github</a></li>
-            </ul>
-          </li>
+    <article id="main">
+      <section>
+        {{ content }}
+      </section>
+    </article>
 
-          <li id="hosting">
-            hosted on:
-            <ul>
-              <li><a href="http://www.heroku.com/">Heroku</a></li>
-            </ul>
-          </li>
-
-          <li id="built">
-            built using:
-            <ul>
-              <li><a href="http://jekyllrb.com/">Jekyll</a></li>
-              <li><a href="http://compass-style.org/">Compass</a></li>
-              <li><a href="http://foundation.zurb.com/">ZURB Foundation</a></li>
-              <li><a href="http://www.zurb.com/playground/foundation-icons/">Foundation Icons</a></li>
-            </ul>
-          </li>
-        </ul>
-      </div>
-
-    </footer>
-
-    <script src="/javascripts/foundation/foundation.min.js" type="text/javascript" charset="utf-8"></script>
-    <script src="/javascripts/foundation/app.js" type="text/javascript" charset="utf-8"></script>
+    <script src="/javascripts/app.js" type="text/javascript" charset="utf-8"></script>
   </body>
 </html>

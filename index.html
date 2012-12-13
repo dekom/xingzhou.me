@@ -3,36 +3,11 @@ layout: default
 title: Xing Zhou
 ---
 
-<section class="row" id="main">
-  <article class="nine columns most recent" >
-
-    <div class="row">
-      <section id="daily questions">
-        <article id="succeed" class="six columns">
-          <h1>How badly do I want to succeed?</h1>
-        </article>
-        <article id="work" class="six columns">
-          <h1>Did I work toward success today?</h1>
-        </article>
-      </section>
-
-      <article class="twleve columns" id="recent_post">
-        <h1>Most Recent Post</h1>
-        {% for post in site.posts limit:1 %}
-        <h1>{{post.title}} <a href="{{post.url}}"><small>{{post.date || date_to_long_string }}</small></a></h1>
-          <section>
-            {{ post.content }}
-          </section>
-        {% endfor %}
-        
-      </article>
-    </div>
-  </article>
-  <div class="three columns" id="bio">
-    {% capture bio %}
-      {% include bio.markdown %}
-    {% endcapture %}
-
-    {{ bio | unindent | markdownify }}
-  </div>
-</section>
+<article>
+  {% for post in site.posts limit:1 %}
+  <!--<h1>{{post.title}} <a href="{{post.url}}"><small>{{post.date || date_to_long_string }}</small></a></h1>-->
+    <section>
+      {{ post.content }}
+    </section>
+  {% endfor %}
+</article>
