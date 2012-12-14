@@ -4,6 +4,7 @@
 @include establish-baseline;
 
 $main: darkred;
+$alt: gray;
 
 $bg: white;
 $bgAlt: $main;
@@ -56,7 +57,45 @@ header {
 
 h1 {
   small {
-    color: grey;
+    color: $alt;
+  }
+}
+
+#projects-display {
+  section {
+    article {
+      padding: 5px;
+
+      margin-top: 30px;
+      margin-bottom: 30px;
+
+      @include single-box-shadow();
+      @include border-radius();
+
+      h2 {
+        margin-top: 0;
+        padding-top: 5px;
+
+        a {
+          display: block;
+          padding-bottom: 5px;
+        }
+      }
+
+      summary {
+        p {
+          margin: 0;
+          vertical-align: top;
+          display: inline-block;
+        }
+      }
+
+      img {
+        @include border-radius();
+        display: inline-block;
+        margin-right: 5px;
+      }
+    }
   }
 }
 
@@ -105,7 +144,7 @@ h1 {
   padding-top: 10px;
 
   h1 {
-    color: grey;
+    color: $alt;
     margin-top: 5px;
     margin-bottom: 10px;
     font-size: 1.5em;

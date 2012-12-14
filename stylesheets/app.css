@@ -393,52 +393,52 @@ html {
   line-height: 1.5em;
 }
 
-/* line 13, ../sass/app.scss */
+/* line 14, ../sass/app.scss */
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-/* line 17, ../sass/app.scss */
+/* line 18, ../sass/app.scss */
 html {
   width: 960px;
   height: 100%;
 }
 
-/* line 22, ../sass/app.scss */
+/* line 23, ../sass/app.scss */
 body {
   position: relative;
   padding: 10px;
 }
 
-/* line 27, ../sass/app.scss */
+/* line 28, ../sass/app.scss */
 .normal, #side ul li a:hover, #side ul li a.selected {
   color: black;
   background: white;
 }
-/* line 30, ../sass/app.scss */
+/* line 31, ../sass/app.scss */
 .normal a, #side ul li a:hover a, #side ul li a.selected a {
   color: black;
 }
 
-/* line 33, ../sass/app.scss */
+/* line 34, ../sass/app.scss */
 .alt, a:hover, #header, #side ul li a {
   color: white;
   background: darkred;
 }
-/* line 36, ../sass/app.scss */
+/* line 37, ../sass/app.scss */
 .alt a, a:hover a, #header a, #side ul li a a {
   color: white;
 }
 
-/* line 39, ../sass/app.scss */
+/* line 40, ../sass/app.scss */
 a {
   color: darkred;
   text-decoration: none;
   cursor: hand;
 }
-/* line 44, ../sass/app.scss */
+/* line 45, ../sass/app.scss */
 a:hover {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -447,23 +447,64 @@ a:hover {
   border-radius: 5px;
 }
 
-/* line 51, ../sass/app.scss */
+/* line 52, ../sass/app.scss */
 header h1 {
   margin-top: 1em;
   margin-bottom: 1em;
 }
 
-/* line 58, ../sass/app.scss */
+/* line 59, ../sass/app.scss */
 h1 small {
-  color: grey;
+  color: gray;
 }
 
-/* line 63, ../sass/app.scss */
+/* line 66, ../sass/app.scss */
+#projects-display section article {
+  padding: 5px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  -webkit-box-shadow: 0px 0px 5px #333333;
+  -moz-box-shadow: 0px 0px 5px #333333;
+  box-shadow: 0px 0px 5px #333333;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+}
+/* line 75, ../sass/app.scss */
+#projects-display section article h2 {
+  margin-top: 0;
+  padding-top: 5px;
+}
+/* line 79, ../sass/app.scss */
+#projects-display section article h2 a {
+  display: block;
+  padding-bottom: 5px;
+}
+/* line 86, ../sass/app.scss */
+#projects-display section article summary p {
+  margin: 0;
+  vertical-align: top;
+  display: inline-block;
+}
+/* line 93, ../sass/app.scss */
+#projects-display section article img {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+/* line 102, ../sass/app.scss */
 #repo-link {
   float: right;
 }
 
-/* line 67, ../sass/app.scss */
+/* line 106, ../sass/app.scss */
 #header {
   padding-right: 0.5em;
   -webkit-border-radius: 5px;
@@ -472,7 +513,7 @@ h1 small {
   -o-border-radius: 5px;
   border-radius: 5px;
 }
-/* line 72, ../sass/app.scss */
+/* line 111, ../sass/app.scss */
 #header img {
   display: inline-block;
   border: thick solid white;
@@ -486,23 +527,23 @@ h1 small {
   -o-border-radius: 5px;
   border-radius: 5px;
 }
-/* line 80, ../sass/app.scss */
+/* line 119, ../sass/app.scss */
 #header div {
   float: right;
   text-align: right;
 }
-/* line 84, ../sass/app.scss */
+/* line 123, ../sass/app.scss */
 #header div h1 {
   margin: 0;
   padding-top: 0.5em;
   padding-bottom: 0.2em;
 }
-/* line 90, ../sass/app.scss */
+/* line 129, ../sass/app.scss */
 #header div a {
   display: block;
 }
 
-/* line 96, ../sass/app.scss */
+/* line 135, ../sass/app.scss */
 #side {
   -webkit-transform-origin: 0;
   -moz-transform-origin: 0;
@@ -521,27 +562,27 @@ h1 small {
   padding-right: 10px;
   padding-top: 10px;
 }
-/* line 107, ../sass/app.scss */
+/* line 146, ../sass/app.scss */
 #side h1 {
-  color: grey;
+  color: gray;
   margin-top: 5px;
   margin-bottom: 10px;
   font-size: 1.5em;
 }
-/* line 114, ../sass/app.scss */
+/* line 153, ../sass/app.scss */
 #side ul {
   width: 100%;
   list-style: none;
   padding: 0;
 }
-/* line 119, ../sass/app.scss */
+/* line 158, ../sass/app.scss */
 #side ul li {
   width: 100%;
   margin-top: 0.5em;
   margin-bottom: 0.5em;
   text-align: right;
 }
-/* line 125, ../sass/app.scss */
+/* line 164, ../sass/app.scss */
 #side ul li a {
   width: 100%;
   display: block;
@@ -553,13 +594,13 @@ h1 small {
   -o-border-radius: 5px;
   border-radius: 5px;
 }
-/* line 134, ../sass/app.scss */
+/* line 173, ../sass/app.scss */
 #side ul li a:hover {
   -webkit-box-shadow: 0px 0px 5px #333333;
   -moz-box-shadow: 0px 0px 5px #333333;
   box-shadow: 0px 0px 5px #333333;
 }
-/* line 139, ../sass/app.scss */
+/* line 178, ../sass/app.scss */
 #side ul li a.selected {
   -webkit-box-shadow: 0px 0px 5px #333333;
   -moz-box-shadow: 0px 0px 5px #333333;
@@ -568,7 +609,7 @@ h1 small {
   text-align: left;
 }
 
-/* line 150, ../sass/app.scss */
+/* line 189, ../sass/app.scss */
 #main {
   vertical-align: top;
   width: 80%;

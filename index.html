@@ -3,11 +3,51 @@ layout: default
 title: Xing Zhou
 ---
 
-<article>
-  {% for post in site.posts limit:1 %}
-  <!--<h1>{{post.title}} <a href="{{post.url}}"><small>{{post.date || date_to_long_string }}</small></a></h1>-->
-    <section>
-      {{ post.content }}
-    </section>
-  {% endfor %}
+<article id="projects-display">
+  <section>
+    <article>
+      <header>
+        <h2><a href="/projects/lex.html">LeX</a></h2>
+      </header>
+      <summary>
+        <img src="holder.js/400x200/industrial"></img>
+        <p>
+          LeX Summary
+        </p>
+      </summary>
+    </article>
+    <article>
+      <header>
+        <h2><a href="/projects/feedback.html">$.feedback</a></h2>
+      </header>
+      <summary>
+        <img src="holder.js/400x200/industrial"></img>
+        <p>
+          $.feedback Summary
+        </p>
+      </summary>
+    </article>
+    <article>
+      <header>
+        <h2><a href="/projects/planner.html">Quadrant Planner</a></h2>
+      </header>
+      <summary>
+        <img src="holder.js/400x200/industrial"></img>
+        <p>
+          Quadrant Planner Summary
+        </p>
+      </summary>
+    </article>
+    <article>
+      <header>
+        <h2><a href="/projects/marginalia.html">Marginalia</a></h2>
+      </header>
+      <summary>
+        <img src="holder.js/400x200/industrial"></img>
+        <p>
+          Marginalia Summary
+        </p>
+      </summary>
+    </article>
+  </section>
 </article>
